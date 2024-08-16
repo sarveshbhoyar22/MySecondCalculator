@@ -127,7 +127,7 @@ equal.addEventListener("click", function (e) {
   const result = evaluateInfix(infixExpression);
   console.log(result);
   const FS = document.getElementById("finalSum");
-  FS.innerHTML = result;
+  FS.innerHTML = result.toFixed(2);
   FS.style.backgroundColor = "rgb(235, 251, 255)";
   FS.style.color = "black";
   FS.style.animation = "none";
@@ -146,5 +146,5 @@ clear.addEventListener("click", function (e) {
   expression.value = "";
   const FS = document.getElementById("finalSum");
   FS.innerHTML = "Answer";
-  window.location.reload();
+  // window.location.reload();
 });
