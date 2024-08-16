@@ -1,0 +1,87 @@
+.container {
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(154, 152, 152);
+  text-align: center;
+  width: 260px;
+  padding: 40px;
+  height: 340px;
+  background-color: white;
+}
+
+.heading {
+  font-size: 26px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.labelE {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  padding: 5px;
+  margin: 3px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgb(154, 152, 152);
+  transition: all 0.1s ease;
+}
+
+.button:hover {
+  background-color: rgb(235, 251, 255);
+  background-color: rgb(127, 242, 255);
+  scale: 1.1;
+}
+
+.button:active {
+  background-color: rgb(78, 154, 129);
+  scale: 1;
+}
+
+.input {
+  overflow: auto;
+  width: 260px;
+  height: 40px;
+  padding: 10px;
+    margin-left: -9px;
+
+  text-align: center;
+
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 3px rgb(154, 152, 152);
+}
+
+#finalSum {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(154, 152, 152);
+  background-color: white;
+  text-align: center;
+  color: gray;
+  animation: blink 1s linear infinite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
